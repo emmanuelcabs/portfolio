@@ -38,7 +38,8 @@ export const projects: Project[] = [
     slug: "portfolio",
     title: "This portfolio",
     kind: "software",
-    status: "In development",
+    status: "Live",
+    liveUrl: "https://portfolio-gilt-ten-8ftoff0ngt.vercel.app",
     summary:
       "A single-page portfolio built with the Next.js App Router. Content lives in typed data files, so adding a role or a project is a one-file edit, and most of the page ships no JavaScript at all.",
     features: [
@@ -53,7 +54,7 @@ export const projects: Project[] = [
       "The portfolio's hero section: the headline “Educator. Developer. Technology Enthusiast.” beside a faculty ID card.",
     repoUrl: "https://github.com/emmanuelcabs/portfolio",
     // Add once deployed, e.g. "https://<your-project>.vercel.app"
-    // liveUrl: "",
+    // liveUrl: "https://portfolio-gilt-ten-8ftoff0ngt.vercel.app",
     year: "2026",
   },
 ];
