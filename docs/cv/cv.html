@@ -1,0 +1,301 @@
+<!doctype html>
+<!--
+  Source for public/documents/Emmanuel-Cabuloy-CV.pdf
+  This public version leaves out the home address, phone number and
+  references. To update: edit this file, open it in Chrome, then
+  Print → Save as PDF (Letter, margins "None", background graphics on).
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Emmanuel R. Cabuloy, LPT — Curriculum Vitae</title>
+    <style>
+      @font-face {
+        font-family: "Bricolage";
+        src: url("BricolageGrotesque-Variable.woff2") format("woff2");
+        font-weight: 200 800;
+      }
+      @font-face {
+        font-family: "Hanken";
+        src: url("HankenGrotesk-Variable.woff2") format("woff2");
+        font-weight: 100 900;
+      }
+      @page {
+        size: Letter;
+        margin: 0.55in 0.65in 0.55in;
+      }
+      :root {
+        --ink: #141414;
+        --muted: #52525b;
+        --line: #e4e4e7;
+        --accent: #a3e635;
+        --accent-ink: #3f6212;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: "Hanken", system-ui, sans-serif;
+        font-size: 10pt;
+        line-height: 1.45;
+        color: var(--ink);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: "Bricolage", system-ui, sans-serif;
+        margin: 0;
+        letter-spacing: -0.01em;
+      }
+
+      /* Header */
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 24px;
+        padding-bottom: 14px;
+        border-bottom: 3px solid var(--accent);
+      }
+      h1 {
+        font-size: 25pt;
+        font-weight: 650;
+        line-height: 1;
+        letter-spacing: -0.03em;
+      }
+      .title {
+        margin-top: 6px;
+        font-size: 11pt;
+        color: var(--muted);
+      }
+      .contact {
+        text-align: right;
+        font-size: 9.5pt;
+        color: var(--muted);
+        line-height: 1.6;
+      }
+      .contact a {
+        color: var(--ink);
+        text-decoration: none;
+      }
+
+      /* Sections */
+      section {
+        display: grid;
+        grid-template-columns: 1.25in 1fr;
+        gap: 18px;
+        padding: 14px 0;
+        border-bottom: 1px solid var(--line);
+      }
+      section:last-of-type {
+        border-bottom: 0;
+      }
+      h2 {
+        font-size: 10.5pt;
+        font-weight: 650;
+        color: var(--accent-ink);
+        padding-top: 1px;
+      }
+      .entry + .entry {
+        margin-top: 12px;
+      }
+      .entry-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        align-items: baseline;
+      }
+      h3 {
+        font-size: 11pt;
+        font-weight: 600;
+      }
+      .dates {
+        flex-shrink: 0;
+        font-size: 9pt;
+        color: var(--muted);
+        font-variant-numeric: tabular-nums;
+        text-align: right;
+      }
+      .org {
+        color: var(--muted);
+        margin-top: 1px;
+      }
+      .note {
+        margin-top: 2px;
+        font-size: 9.5pt;
+      }
+      ul {
+        margin: 6px 0 0;
+        padding-left: 14px;
+      }
+      li {
+        margin: 2px 0;
+      }
+      li::marker {
+        color: var(--accent-ink);
+      }
+      .skills {
+        display: grid;
+        grid-template-columns: 1.55in 1fr;
+        gap: 4px 14px;
+      }
+      .skills dt {
+        color: var(--muted);
+      }
+      .skills dd {
+        margin: 0;
+      }
+      .small {
+        font-size: 9pt;
+        color: var(--muted);
+      }
+      .entry,
+      section {
+        break-inside: avoid;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Emmanuel R. Cabuloy, LPT</h1>
+        <p class="title" style="margin-bottom: 0">
+          ICT Educator, College Instructor and Software Developer
+        </p>
+      </div>
+      <div class="contact">
+        Davao City, Philippines<br />
+        <a href="mailto:cabuloyemmanuel@gmail.com">cabuloyemmanuel@gmail.com</a><br />
+        <a href="https://github.com/emmanuelcabs">github.com/emmanuelcabs</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Experience</h2>
+      <div>
+        <div class="entry">
+          <div class="entry-head">
+            <h3>ICT Coordinator</h3>
+            <div class="dates">Jun 2026 – Present<br />Jun 2016 – Aug 2024</div>
+          </div>
+          <div class="org">Philippine Women’s College of Davao</div>
+          <div class="note">Also Flexible Learning Coordinator since June 2026</div>
+          <ul>
+            <li>Led the Senior High School ICT department, supervising five teachers and overseeing the TVL-ICT strands: Computer Programming, Computer Systems Servicing and Animation.</li>
+            <li>Conducted teacher evaluations through classroom observations, performance reviews and document checks to support quality instruction and DepEd compliance.</li>
+            <li>Taught Empowerment Technology, equipping students with skills in web design, digital content creation, online collaboration and digital productivity tools.</li>
+            <li>Delivered specialized ICT instruction in Java, Python, HTML, CSS, JavaScript and Django.</li>
+            <li>Designed and implemented project-based, skills-focused lessons to strengthen students’ practical ICT competencies.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-head">
+            <h3>SHS ICT Faculty and Part-time College IT Faculty</h3>
+            <div class="dates">Jun 2025 – Apr 2026</div>
+          </div>
+          <div class="org">Philippine Women’s College of Davao</div>
+          <ul>
+            <li>Taught BSEd and BEEd courses, including Technology for Teaching and Learning 2, and developed syllabi aligned with curricular and instructional requirements.</li>
+            <li>Handled Computer Programming 2, including course instruction and syllabus preparation.</li>
+            <li>Taught Media and Information Literacy in the Senior High School program and prepared the course syllabus and learning plan.</li>
+            <li>Taught BSIT subjects including Introduction to Computing, Complex Systems, Advanced Database Systems 2 and Human-Computer Interaction, and designed and updated their syllabi.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-head">
+            <h3>Information Systems Part-time Instructor</h3>
+            <div class="dates">Jun 2015 – Jun 2016</div>
+          </div>
+          <div class="org">Ateneo de Davao University</div>
+          <ul>
+            <li>Taught EDP 111 (Fundamentals of Computer Software and Applications) to first- and second-year Accountancy and Accounting Technology students.</li>
+            <li>Handled Fundamentals of Programming and Database Theory and Applications for first- and third-year college students.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-head">
+            <h3>IT and CS Instructor</h3>
+            <div class="dates">Jun 2013 – Jun 2015</div>
+          </div>
+          <div class="org">AMA Computer College of Davao</div>
+          <ul>
+            <li>Delivered instruction in Information Technology and Computer Science courses through lectures and hands-on practical activities.</li>
+            <li>Taught Introduction to Information Systems, Object-Oriented Programming, Introduction to the World Wide Web, Computer Programming I, Web Programming, and Systems Analysis and Design.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div>
+        <div class="entry">
+          <div class="entry-head">
+            <h3>Master of Science in Information Technology</h3>
+            <div class="dates">In progress</div>
+          </div>
+          <div class="org">Ateneo de Davao University, 9 units earned</div>
+        </div>
+        <div class="entry">
+          <div class="entry-head">
+            <h3>Bachelor of Secondary Education</h3>
+            <div class="dates">Nov 2018 – Mar 2019</div>
+          </div>
+          <div class="org">St. John Paul II College of Davao, 24 professional units earned</div>
+          <div class="small">Professional education units completed to qualify for the Licensure Examination for Professional Teachers.</div>
+        </div>
+        <div class="entry">
+          <div class="entry-head">
+            <h3>Bachelor of Science in Information Technology</h3>
+            <div class="dates">May 2009 – May 2013</div>
+          </div>
+          <div class="org">AMA Computer College of Davao</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <dl class="skills" style="margin: 0">
+        <dt>Programming</dt>
+        <dd>Java, Python, JavaScript</dd>
+        <dt>Web development</dt>
+        <dd>HTML, CSS, JavaScript, Django</dd>
+        <dt>Databases</dt>
+        <dd>MySQL, PostgreSQL, database concepts</dd>
+        <dt>Educational technology</dt>
+        <dd>Google Classroom and LMS, instructional technology integration, Microsoft Office Suite</dd>
+        <dt>Teaching and leadership</dt>
+        <dd>Curriculum development, classroom management, student assessment, communication and leadership</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h2>Training</h2>
+      <div>
+        <div class="entry">
+          <div class="entry-head">
+            <h3 style="font-size: 10pt">AI &amp; Future Skills Seminar Workshop</h3>
+            <div class="dates">2025</div>
+          </div>
+          <div class="org">eduCLaaS Philippines</div>
+        </div>
+        <div class="entry" style="margin-top: 8px">
+          <div class="entry-head">
+            <h3 style="font-size: 10pt">Bridging the Gap: Essentials in Handling Neurodivergent Learners in the Classroom</h3>
+            <div class="dates">Aug 2025</div>
+          </div>
+          <div class="org">Philippine Women’s College of Davao, Irra Gallego-Basuel, MA, LPT, RGC</div>
+        </div>
+      </div>
+    </section>
+
+    <p class="small" style="margin: 10px 0 0; text-align: center">References available upon request.</p>
+  </body>
+</html>
